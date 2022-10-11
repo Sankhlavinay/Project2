@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	border-radius: 5px;
+	background-color: aqua;
+	text-align: center;
+	margin: 80px 500px;
+	/*border: 3px solid red;*/
+	outline: 3px solid red;
+	outline-style: upset;
+	background-image: url(../Images/ironman.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position:200 right;
+
+}
+
+.form{
+	background-repeat: no-repeat;
+	background-image: url(../Images/laddakh.jpg);
+	background-size: cover;
+	/*background-size: 100%;*/
+	color: white;
+	margin: 10px 0px 20px 0px;
+}
+
+h2{
+	color:rgba(255, 150, 0, 1.0);
+	margin-bottom: 20px;
+
+}
+
+input,button{
+	margin: 7px;
+}
+textarea{
+	color: white;
+	background-color: rgba(0, 150, 150, 1.0);
+	font-weight: bold;
+	text-decoration-line: none;
+}

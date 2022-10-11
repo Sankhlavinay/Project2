@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body>
+	<form class="form">
+		 <div>
+
+			<h2 class="fi">Form</h2>
+
+			<label class="first" for="name">Your Name :</label>
+			<input id="name" type="text" <!-- autocomplete="on" --> value="" placeholder="Enter Your Name">
+			<br><br>
+
+			<label for="number">Moblile No.</label>
+			<input id="number" type="number"> 
+			<br><br>
+			
+			<label for="mail">Email</label>
+			<input id="mail" type="email"> 
+			<br><br>
+
+			<label for="DOB">Date Of Birth</label>
+			<input id="DOB" type="date">
+			<br><br>
+
+			<p>Mother Tounge</p>
+			
+			<input id="vinay" type="radio" name="form" value="mother_tounge">
+			<label for="vinay">Hindi</label>
+
+			<input id="vinayy" type="radio" name="form" value="mother_tounge">
+			<label for="vinayy">English</label><br>
+
+			<label>Choose Your Fav Color</label>
+			<input type="color"><br><br>
+
+			<label for="lang" >Would You Like to taste drive </label>
+				<select>
+					<option value="">Audi</option>
+					<option value="">Jaguar</option>
+					<option value="">Thar</option>
+				</select> <br><br>
+
+			<textarea rows="6" cols="30">Tell About Your Experience</textarea><br>
+
+			<button value="click">Click Me</button><br><br>
+
+			<button>Reset</button>
+													<!-- We can make button from both attribu -->
+			<input type="submit">
+
+		</div>
+	</form>
+</body>
+</html>
+
+<!--	 
+ <form>
+<input list="browsers">
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+</form> 
